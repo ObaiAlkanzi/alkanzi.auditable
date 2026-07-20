@@ -1,5 +1,13 @@
 # Alkanzi.Auditable
 
+> ## ⚠️ This repository is archived
+>
+> Development has moved to **[ObaiAlkanzi/alkanzi.libraries](https://github.com/ObaiAlkanzi/alkanzi.libraries)**, a monorepo containing `Alkanzi.Auditable`, `Alkanzi.ApprovalWorkflow`, and a shared test suite.
+>
+> This repo is kept read-only as the history of the **1.0.0** release. It does not include changes from 2.0.0 onward — notably `IS_UPDATED`/`IS_DELETED` becoming `bool?` (a breaking change) and UTC timestamp stamping.
+>
+> Open issues and pull requests against [alkanzi.libraries](https://github.com/ObaiAlkanzi/alkanzi.libraries). The [NuGet package](https://www.nuget.org/packages/Alkanzi.Auditable) continues to be published from there.
+
 A lightweight, interface-based contract for audit-stamping entities (Created/Updated/Deleted metadata) — designed to work with **any** existing base class, no inheritance required.
 
 ## Requirements
